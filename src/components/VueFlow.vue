@@ -6,11 +6,12 @@ const { fitView } = useVueFlow();
 import { Background } from "@vue-flow/background";
 import { Controls } from "@vue-flow/controls";
 import { MiniMap } from "@vue-flow/minimap";
+import LinkNode from "../components/LinkNode.vue";
 
 import { useLayout } from "../script/useLayout.ts";
 const { layout } = useLayout();
 
-import { initialNodes, initialEdges } from "../components/sample_graph.ts";
+import { initialNodes, initialEdges } from "../components/overview_graph.ts";
 const nodes = ref(initialNodes);
 nodes.value.forEach((node) => {
   node.draggable = false;
