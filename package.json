@@ -1,0 +1,29 @@
+{
+  "name": "ap-psy-mindmap",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/vue": "^5.0.13",
+    "@tailwindcss/vite": "^4.1.5",
+    "astro": "^5.7.10",
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.1.5"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "@vue-flow/background": "latest",
+    "@vue-flow/controls": "latest",
+    "@vue-flow/core": "^1.42.1",
+    "@vue-flow/minimap": "latest",
+    "@vueuse/core": "^13.0.0",
+    "@dagrejs/dagre": "^1.1.4"
+  }
+}
