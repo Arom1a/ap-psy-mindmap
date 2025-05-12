@@ -1,10 +1,14 @@
 ---
 import "../styles/global.css";
 import Layout from "../layouts/Layout.astro";
+import VueFlow from "../components/VueFlow.vue";
 ---
 
 <Layout>
   <div class="h-1/5">
     <p class="text-9xl font-bold">Hello World</p>
+  </div>
+  <div class="h-4/5">
+    <VueFlow client:only />
   </div>
 </Layout>
